@@ -176,6 +176,8 @@ def r_ply(type_):
             ],
             [
                 InlineKeyboardButton("Playlist 📖", "playlist"),
+                InlineKeyboardButton("Owner 🥀", url="http://t.me/pratheek06"),
+                InlineKeyboardButton("Support", url="http://t.me/SHIZUKA_VC_SUPPORT"),
             ],
             [InlineKeyboardButton("❌ Close", "cls")],
         ]
@@ -808,13 +810,14 @@ async def ytplay(_, message: Message):
         [
             [
                 InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
-                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
-                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
+                InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu") ,
             ],
             [
                 InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
                 InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlinekeyboardButton(text="Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
             ],
+
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
     )
@@ -1048,7 +1051,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @InnexiaVCBot to your Group and try again request here @SiderzBot with your group link</b>",
+                        "\n\nOr manually add Assistant to your Group and try again request here @SHIZUKA_VC_SUPPORT with your group link</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -1161,7 +1164,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("You ain't the person who requested to play the song!", show_alert=True)
         return
-    await cb.message.edit("Hang On... Player Starting")
+    await cb.message.edit("Hang On... Player Starting ")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
