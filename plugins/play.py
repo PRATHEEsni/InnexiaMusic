@@ -526,8 +526,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                    InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
+                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
+                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
@@ -573,8 +574,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                    InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
+                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
+                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
                 ],
                 [
                     InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
@@ -656,8 +658,9 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                        InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                        InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
+                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
+                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
                     ],
                     [
                         InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
@@ -804,8 +807,9 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
+                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
+                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
             ],
             [
                 InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
@@ -947,8 +951,9 @@ async def deezer(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
+                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
+                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
             ],
             [InlineKeyboardButton(text="Listen On Deezer 🎬", url=f"{url}")],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
@@ -1083,8 +1088,9 @@ async def jiosaavn(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
+                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
+                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
             ],
             [
                 InlineKeyboardButton(
@@ -1189,8 +1195,9 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
+                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
+                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
             ],
             [
                 InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
