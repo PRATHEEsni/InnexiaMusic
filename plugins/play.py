@@ -50,8 +50,6 @@ def cb_admin_check(func: Callable) -> Callable:
 
     return decorator
 
-ELIZA_IMG = "https://telegra.ph/file/c1169cca4e16d92d5ccdf.jpg"
-
 def transcode(filename):
     ffmpeg.input(filename).output(
         "input.raw", format="s16le", acodec="pcm_s16le", ac=2, ar="48k"
@@ -605,7 +603,7 @@ async def play(_, message: Message):
           await lel.edit("Give me something to play")
         # Looks like hell. Aren't it?? FUCK OFF
         try:
-           ELINA_IMG, toxxt = "**Select the song you want to play**\n\n"
+            toxxt = "**Select the song you want to play**\n\n"
             j = 0
             useer=user_name
             emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣",]
