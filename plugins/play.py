@@ -1198,12 +1198,12 @@ async def lol_cb(b, cb):
         [
             [
                 InlineKeyboardButton("📖 Pʟᴀʟɪsᴛ", callback_data="playlist"),
-                    InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
-                    InlinekeyboardButton("Oᴡɴᴇʀ 🥀", url="https://t.me/pratheek06"),
+                InlineKeyboardButton("Mᴇɴᴜ ⏯ ", callback_data="menu"),
             ],
             [
                 InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
                 InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlinekeyboardButton(text="Oᴡɴᴇʀ 🥀", url=f"https://t.me/pratheek06"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
