@@ -395,6 +395,7 @@ async def m_cb(b, cb):
                 ],
                 [
                     InlineKeyboardButton("Playlist 📖", "playlist"),
+
                     InlineKeyboardButton("Owner 🥀", url=f"http://t.me/pratheek06"),
                 ],
                 [InlineKeyboardButton("❌ Close", "cls")],
